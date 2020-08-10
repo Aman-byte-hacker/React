@@ -1,0 +1,274 @@
+
+
+.containeri{
+    display: flex;
+    float: right;
+}
+.nav-i{
+    list-style-type: none;
+    display:flex;
+    
+    
+    
+
+}
+
+li a{
+    padding: 22px;
+    margin-bottom: 0px;
+    
+    text-decoration: none;
+    
+}
+.hell{
+   float: left; 
+    margin-left:80px;
+}
+#hellj{
+    animation: up-down 2s ease-in infinite alternate-reverse both;   
+    margin-top: 190px;
+    margin-left: 1000px;
+}
+@keyframes up-down {
+    0%{
+        transform:translateY(10px);
+    }
+    100%{
+        transform:translateY(-10px);
+    }
+
+}
+.ui{
+    text-transform: capitalize;
+    position: absolute;
+    top:300px;
+    margin-left: 130px;
+}
+.ios{
+    
+}
+.ji{
+    text-transform: capitalize;
+    position: absolute;
+    top:370px;
+    margin-left: 130px;
+}
+
+#name{
+    color: green;
+}
+
+.op{
+    text-transform: capitalize;
+    position: absolute;
+    top:400px;
+    margin-left: 130px;
+    border: 2px solid black;
+    border-radius: 22px;
+    padding:12px;
+    background-color: greenyellow;
+}   
+.cen{
+    text-align: center;
+    position: absolute;
+    top: 52px;
+    color: grey;
+    margin-left: 600px;
+}
+.bor{
+    position: absolute;
+    top: 82px;
+    color: grey;
+    border-width: 220px;
+    border: 2px solid rgb(134, 120, 120);
+    padding:100px;
+    
+    
+}
+.iu{
+    position: absolute;
+    top: 82px;
+    padding:100px;
+    
+}
+.card{
+    position: absolute;
+    top: 22px;
+    padding:32px;
+    width: 500px;
+}
+.null{
+    border: 2px solid grey;
+    margin:22px;
+    width: 400px;
+    box-shadow: 10px 5px 5px red;
+    
+}
+.go{
+    width: 50x;
+    height: 50px;
+}
+.jiu{
+    text-align: center;
+}
+.hi{
+
+    width: 397px;
+}
+.para{
+    margin-left: 4px;
+    margin: 5px;
+    text-transform: capitalize;
+}
+.pop{
+    text-align: center;
+}
+.btn-enroll{
+    padding: 10px;
+    border:2px solid goldenrod;
+    border-radius: 22px;
+    background-color: lawngreen;
+}
+.main{
+    display: flex;
+}
+.bro{
+    display: flex;
+    
+}
+.lop{
+    display: flex;
+}
+.hello{
+    width: 397px;
+    height:170px;
+}
+.vu{
+    text-align: center;
+}
+.binod{
+    text-align: center;
+}
+.lion{
+    width: 600px;
+    border: 2px solid black;
+
+    padding: 10px;
+}
+.uy{
+    text-align: center;
+    
+}
+.nani{
+    width: 600px;
+    height: 100px;
+    border: 2px solid black;
+    
+}
+.mn{
+    text-align: center;
+    
+}
+.btn-sub{
+    border: 2px solid black;
+    border-radius: 22px;
+    padding: 15px;
+    background-color: goldenrod;
+}
+.admin{
+    text-transform: capitalize;
+    
+    margin: 45px;
+    text-align: center;
+}
+.adm{
+    text-transform: capitalize;
+    
+    margin: 8px;
+    text-align: center;
+}
+.king{
+    text-align: center;
+    position: absolute;
+    color: grey;
+    margin-left: 600px;
+}
+#lk{
+    font-size: xx-large;
+}
+.aman{
+    width: 200px;
+    display: inline-block;
+    display: block;
+    margin-left: auto;
+    margin-right: auto;
+    margin-top: 24px;
+    height: 300px;
+    border: 2px solid black;
+    border-radius: 160px;
+    animation: up-down 0.9s ease-in 2 alternate-reverse both;   
+}
+@keyframes up-down{
+    0%{
+        transform: translateY(10px);
+    }
+    100%{
+        transform: translateY(-10px);
+    }
+}
+.cap{
+    margin-top: 5px;
+    text-align: center;
+    text-transform: capitalize;
+    
+}
+@media only screen and (max-width: 600px) {
+    .ui{
+        margin-left:4px;
+    }
+    .ji{
+        margin-left: 4px;
+    }
+    .op{
+        margin-left: 0px;
+    }
+    #hellj{
+        width: 150px;
+        height:150px;
+        position: absolute;
+        bottom: 22px;
+        margin-left: 172px;
+        margin-bottom: 202px;
+        
+    }
+    .main{
+        flex-direction: column;
+        margin-top:18px;
+        
+    }
+    .bro{
+        flex-direction: column;
+    }
+    .lop{
+        flex-direction: column;
+    }
+    .null{
+        margin-left: 2px;
+        margin-right: 0px;
+        
+    }
+    .para{
+        
+        margin-right: 0px;
+    }
+    .lion{
+        width: 99%;
+    }
+    .nani{
+        width: 99%;
+    }
+    .uy{
+        text-align: center;
+    }
+    
+  }
